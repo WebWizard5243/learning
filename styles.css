@@ -1,0 +1,84 @@
+body{
+margin: 0;
+text-align: center;
+}
+.center{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    font-size: 60px;
+    color: antiquewhite;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.coder{
+    color: dodgerblue;
+}  
+.bg{
+    background-image: url(./Images/coding.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.middle-container{
+    margin: 100px 0 ;
+    font-size: 20px;
+}  
+h3{
+  font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: cornflowerblue;
+   
+}
+.profile{
+    border-radius: 50%;
+    height: 200px;
+}
+p{
+    line-height: 2;
+}
+h4{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;  
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    display: block;
+}
+.code-img {
+    float: left;
+    margin-right: 30px;
+}
+.chess-img {
+    width: 80%;
+    float: left;
+    margin-left: 30px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+  }
+  .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top,  cornflowerblue,cornflowerblue);
+    background-image: -moz-linear-gradient(top, cornflowerblue cornflowerblue);
+    background-image: -ms-linear-gradient(top, cornflowerblue cornflowerblue);
+    background-image: -o-linear-gradient(top, cornflowerblue, cornflowerblue);
+    background-image: linear-gradient(to bottom, cornflowerblue, cornflowerblue);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
